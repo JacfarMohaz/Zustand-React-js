@@ -36,7 +36,7 @@ const TodoForm = () => {
 
   return (
     <form
-      className='d-flex mb-4 border border-dark p-2'
+      className='d-flex mb-4 border border-primary p-2'
       onSubmit={submitHandler}
     >
       <input
@@ -46,7 +46,7 @@ const TodoForm = () => {
         className='form-control border-0 shadow-none rounded-0 bg-transparent'
         placeholder='Add a new todo'
       />
-      <button type='submit' className='btn btn-outline-dark rounded-0'>
+      <button type='submit' className='btn btn-outline-primary rounded-0'>
         Submit
       </button>
     </form>
